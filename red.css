@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --r: red;
+    --b: rgb(7, 22, 234);
+    --g: green;
+    --h: rgba(68, 68, 68, 0.466);
+    --w: white;
+    --bl: black;
+    --bg:rgba(184, 240, 247, 0.637);
+}
+
+.nav {
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li #home a,
+.nav ul li #red a,
+.nav ul li #blue a,
+.nav ul li #green a {
+    padding: 5px 20px 5px 15px;
+    margin: 3px;
+    width: 95px;
+    text-align: center;
+}
+
+#home a {
+    color: var(--bl);
+    padding: 5px;
+    border: 1px solid var(--bl);
+    border-radius: 14px;
+}
+
+#red a {
+    color: var(--r);
+    border: 1px solid var(--r);
+    border-radius: 14px;
+}
+
+#blue a {
+    color: var(--b);
+    border: 1px solid var(--b);
+    border-radius: 14px;
+}
+
+#green a {
+    color: var(--g);
+    border: 1px solid var(--g);
+    border-radius: 14px;
+}
+
+
+#home a:hover {
+    border: 1px solid var(--bl);
+    background-color: var(--bl);
+    border-radius: 14px;
+    text-align: center;
+    color: var(--w);
+}
+
+#red a:hover {
+    border: 1px solid var(--r);
+    background-color: var(--r);
+    border-radius: 14px;
+    text-align: center;
+    color: var(--w);
+} 
+
+#blue a:hover {
+    border: 1px solid var(--b);
+    background-color: var(--b);
+    border-radius: 14px;
+    text-align: center;
+    color: var(--w);
+}
+
+#green a:hover {
+    border: 1px solid var(--g);
+    background-color: var(--g);
+    border-radius: 14px;
+    text-align: center;
+    color: var(--w);
+}
+
+.para{
+    margin: 15px ;
+    padding: px;
+    color: var(--w);
+}
+
+.box{
+    background-color: var(--r);
+    margin: 15px;
+    padding: 13px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+    width: 80%;
+}
+
+
+
+@media only screen and (max-width:712px) {
+
+    .nav {
+        margin: 15px;
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+    }
+
+    .nav ul {
+        list-style: none;
+        display: inline;
+    }
+
+    .nav ul li #home a,
+    .nav ul li #red a,
+    .nav ul li #blue a,
+    .nav ul li #green a {
+        padding: 5px 20px 5px 15px;
+        margin: 13px;
+    }
+
+    #home a {
+        color: var(--bl);
+        border: none;
+        line-height: 35px;
+    }
+
+    #red a {
+        color: var(--r);
+        border: none;
+        line-height: 35px;
+    }
+
+    #blue a {
+        color: var(--b);
+        border: none;
+        line-height: 35px;
+    }
+
+    #green a {
+        color: var(--g);
+        border: none;
+        line-height: 35px;
+    }
+
+    #home a:hover {
+        border: 1px solid var(--bl);
+        background-color: var(--bl);
+        border-radius: 14px;
+        text-align: center;
+        color: var(--w);
+        line-height: 35px;
+    }
+
+    #red a:hover {
+        border: 1px solid var(--r);
+        background-color: var(--r);
+        border-radius: 14px;
+        text-align: center;
+        color: var(--w);
+        line-height: 35px;
+    }
+
+    #blue a:hover {
+        border: 1px solid var(--b);
+        background-color: var(--b);
+        border-radius: 14px;
+        text-align: center;
+        color: var(--w);
+        line-height: 35px;
+    }
+
+    #green a:hover {
+        border: 1px solid var(--g);
+        background-color: var(--g);
+        border-radius: 14px;
+        text-align: center;
+        color: var(--w);
+        line-height: 35px;
+    }
+
+    .para {
+        margin: 7px;
+    }
+
+    .para h2 {
+        margin-bottom: 7px;
+        font-size: 20px;
+    }
+
+    .para p {
+        font-size: 15px;
+    }
+
+    .box {
+        background-color: var(--r);
+        margin: 15px;
+        padding: 13px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px;
+        width: 80%;
+    }
+
+
+}
